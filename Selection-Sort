@@ -13,7 +13,7 @@ Sıralamada esnasında dizideki elemanlar tek tek incelenerek sol baştan küç�
 4 - [2,6,16,-18-,22,27] -> dizideki en küçük dördüncü elaman olan -18- dördüncü sıradaki -22- ile yer değiştirir 
 ve dizimiz insertion sort'a göre sıralnmış olur.
 
-    Big-O- Notion gösterimi
+    Big-O- Notation gösterimi
 
 n + (n-1) + (n-2) + (n-3) + ......+ 1 -> n(n+1)/2 -> (n^2+n)/2
 
