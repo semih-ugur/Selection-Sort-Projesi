@@ -1,6 +1,6 @@
-[22,27,16,2,18,6] -> Insertion Sort
+    [22,27,16,2,18,6] -> Insertion Sort
 
-Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+    Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 
 Aşamalar
 
@@ -13,13 +13,13 @@ Sıralamada esnasında dizideki elemanlar tek tek incelenerek sol baştan küç�
 4 - [2,6,16,-18-,22,27] -> dizideki en küçük dördüncü elaman olan -18- dördüncü sıradaki -22- ile yer değiştirir 
 ve dizimiz insertion sort'a göre sıralnmış olur.
 
-Big-O- Notion gösterimi
+    Big-O- Notion gösterimi
 
-Dizide bulunan n sayıdaki bütün elemanlar incelendiği için **O(n^2)**dir.
+n + (n-1) + (n-2) + (n-3) + ......+ 1 -> n(n+1)/2 -> (n^2+n)/2
 
-n + (n-1) + (n-2) + (n-3) + ......+ 1 -> n(n+1)/2
+Dizide bulunan n sayıdaki bütün elemanlar incelendiği için ve katsayılar dikkate alınmadığı için **O(n^2)**dir.
 
-Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+    Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
 
 Average case: Aradığımız sayının ortada olması
 Worst case: Aradığımız sayının sonda olması
@@ -29,7 +29,7 @@ Best case: Aradığımız sayının dizinin en başında olması.
 
 __________________________________________________________________________________________________________________________________________________________________
 
-[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+    [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
 
 [**2**,3,5,8,7,9,4,15,6]
 [2,**3**,5,8,7,9,4,15,6]
